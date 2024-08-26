@@ -55,7 +55,7 @@ ul {
     justify-content: center;
     width: 700px;
     gap: 20px;
-    margin-right: 10%;
+    margin-left: 10%;
     flex-wrap: wrap;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -78,8 +78,15 @@ ul {
 
   .logo{
     display: flex;
-    flex-basis: 50px;
-    max-width: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+ 
+  }
+
+  .logo img{
+    width: 100%;
+    height: 200px;
   }
 
   .signup{
