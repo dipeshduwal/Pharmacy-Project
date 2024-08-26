@@ -104,6 +104,11 @@ ul {
     border-color: rgb(20, 112, 30);
     box-shadow: goldenrod;
     padding: 20px;
+    
+  }
+
+  .info:hover{
+    box-shadow: 0 0 30px 10px #48ab4f;
   }
   
   .quote{
@@ -140,27 +145,50 @@ ul {
 
   .contact{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 178, 120);
+    margin-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 20px;
+    border: 2px solid ;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
 .contain{
     display: flex;
     flex-direction: column;
-    background-color: rgb(143, 178, 120);
-    margin-bottom: 50px;
-    padding: 30px;
-    padding-left: 8%;
-    padding-right: 8%;
-    border: 2px solid ;
-    border-radius: 20px;
+    align-items: space-between;
+    gap: 10px;
+}
+
+.contacttext{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.purchase{
     font-size: large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 
 .signup1{
     display: flex;
-    align-items: flex-end;
-    max-width: 100px;
+    padding: 15px;
+    max-height: 60px;
+    width: auto;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 600;
+    color: #eee;
+    background-color: #48ab4f;
+    border: 1px solid #f7faf7;
 }
 
 .footer{
