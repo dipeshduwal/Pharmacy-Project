@@ -41,20 +41,27 @@ ul {
 
   .description{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
     background-color:rgb(111, 153, 93);
     font-family: Besley, serif;
     color: white;
   }
 
-  .maintext{
+  .content{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 18px;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .maintext{
+    font-size: x-large;
     font-weight: 700;
-    margin-bottom: 8px;
     color: #eee;
   }
 
@@ -65,7 +72,19 @@ ul {
   }
 
   .signup{
-
+    max-width: 200px;
+    display: flex;
+    padding: 15px;
+    max-height: 60px;
+    width: auto;
+    align-items: center;
+    margin-left: 10%;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: 600;
+    color: #eee;
+    background-color: #48ab4f;
+    border: 1px solid #f7faf7;
   }
 
   .text{
@@ -139,6 +158,7 @@ ul {
     margin-bottom: 50px;
     color: rgb(12, 71, 12);
     font-weight: 600;
+    font-style: italic;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
@@ -190,6 +210,10 @@ ul {
     background-color: #48ab4f;
     border: 1px solid #f7faf7;
 }
+
+.signup1:hover{
+    box-shadow: 0 0 30px white;
+  }
 
 .footer{
     display: flex;
