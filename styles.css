@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;1,900&display=swap');
+
+body {
+  margin: 0;
+  background: #eee;
+  font-family: Besley, serif;
+}
+
+*{
+    font-family: Besley, serif;
+}
+
+.header{
+    background: rgb(26, 85, 14);
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    
+  }
+
+  .left, .right {
+    display: flex;
+    align-items: center;
+    color: #eee;
+  }
+
+  .links{
+    font-weight: 800;
+    font-size: larger;
+    gap: 25px;
+  }
+
+  .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgb(111, 153, 93);
+    font-family: Besley, serif;
+    color: white;
+  }
+
+  .maintext{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #eee;
+  }
+
+  .logo{
+    display: flex;
+    flex-basis: 50px;
+    max-width: 20px;
+  }
+
+  .signup{
+
+  }
+
+  .text{
+    display: flex;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 32px;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  
+  .info {
+    max-width: 200px;
+  }
+  
