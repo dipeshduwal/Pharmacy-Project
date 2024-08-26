@@ -15,7 +15,7 @@ body {
     border-bottom: 2px solid;
     display: flex;
     justify-content: space-around;
-
+    text-decoration: none;
 }
 
 ul {
@@ -23,20 +23,43 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 16px;
-    
+    gap: 10px;
+    text-decoration: none;
   }
 
   .left, .right {
     display: flex;
     align-items: center;
     color: #eee;
+    text-decoration: none;
   }
 
   .links{
     font-weight: 800;
     font-size: larger;
-    gap: 25px;
+    gap: 30px;
+    text-decoration: none;
+  }
+
+  .links a {
+    text-decoration: none;
+    display: block;
+    font-size: larger;
+    padding: 16px;
+    color: white;
+  }
+  
+
+  .links a:hover {
+    background-color: darkolivegreen;
+    cursor: pointer;
+    color: white;
+    height: 65px;
+    text-shadow: 2px 2px 1px black;
+  }
+
+  .links a:visited{
+    text-decoration: none;
   }
 
   .description{
@@ -102,6 +125,10 @@ ul {
     color: #eee;
     background-color: rgb(26, 85, 14);
     border: 1px solid #f7faf7;
+  }
+
+  .signup:hover{
+    box-shadow: 0 0 30px white;
   }
 
   .text{
@@ -227,6 +254,8 @@ ul {
     color: #eee;
     background-color: #48ab4f;
     border: 1px solid #f7faf7;
+    flex-shrink: no shrink;
+    flex-wrap: nowrap;
 }
 
 .signup1:hover{
