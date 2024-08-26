@@ -70,6 +70,10 @@ ul {
 
   .text{
     display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: 500;
   }
 
   img {
@@ -78,18 +82,58 @@ ul {
   }
   
   .title {
-    font-size: 36px;
+    display: flex;
+    font-size: 26px;
+    justify-content: center;
     font-weight: 900;
-    margin-bottom: 32px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .container {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 50px;
   }
   
   .info {
     max-width: 200px;
+    border: 3px solid;
+    border-radius: 10%;
+    border-color: rgb(20, 112, 30);
+    box-shadow: goldenrod;
+    padding: 20px;
   }
   
+  .quote{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .saying{
+    justify-content: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 50px;
+    color: #eee;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Verdana;
+    margin-bottom: 10px;
+    ;
+  }
+
+  .author{
+    justify-content: center;
+    margin-left: 60%;
+    margin-bottom: 50px;
+    color: #490a0a;
+    font-weight: 600;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
