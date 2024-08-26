@@ -12,7 +12,7 @@ body {
 
 .header{
     background: rgb(26, 85, 14);
-    border-bottom: 1px solid;
+    border-bottom: 2px solid;
     display: flex;
     justify-content: space-around;
 
@@ -132,7 +132,7 @@ ul {
     justify-content: center;
     margin-left: 60%;
     margin-bottom: 50px;
-    color: #490a0a;
+    color: rgb(12, 71, 12);
     font-weight: 600;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -144,7 +144,10 @@ ul {
   }
 
 .contain{
-    background-color: rgb(178, 255, 127);
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(143, 178, 120);
+    margin-bottom: 50px;
     padding: 30px;
     padding-left: 8%;
     padding-right: 8%;
@@ -152,4 +155,22 @@ ul {
     border-radius: 20px;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup1{
+    display: flex;
+    align-items: flex-end;
+    max-width: 100px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border-top: 2px solid black;
+    padding: 20px;
+    background-color: rgb(26, 85, 14);
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    font-family: Besley, serif;
 }
