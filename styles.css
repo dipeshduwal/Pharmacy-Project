@@ -45,7 +45,7 @@ ul {
     text-decoration: none;
     display: block;
     font-size: larger;
-    padding: 16px;
+    padding: 22px;
     color: white;
   }
   
@@ -54,7 +54,6 @@ ul {
     background-color: darkolivegreen;
     cursor: pointer;
     color: white;
-    height: 65px;
     text-shadow: 2px 2px 1px black;
   }
 
