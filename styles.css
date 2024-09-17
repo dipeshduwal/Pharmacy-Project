@@ -272,3 +272,13 @@ ul {
     font-weight: 600;
     font-family: Besley, serif;
 }
+
+.fa-github {
+  color: white;
+  font-size: larger;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fa-github:hover {
+  transform: rotate(360deg) scale(1.2);
+}
